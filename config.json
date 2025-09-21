@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "MiAplicacion",
+    "version": "1.0.0",
+    "environment": "development"
+  },
+  "server": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "database": {
+    "type": "mysql",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "root",
+    "password": "12345",
+    "name": "mi_basedatos"
+  },
+  "logging": {
+    "level": "inf",
+    "file": "logs/app.log"
+  }
+}
+
